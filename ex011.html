@@ -13,22 +13,25 @@
     </style>
 </head>
 <body>
-    <h1>Imagem dinâmica</h1>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
-
-    <picture>
-        <source media="(max-width: 750px)" srcset="./imagens-ex011/gastly.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="./imagens-ex011/haunter.png" type="image/png">
-        <img src="imagens-ex011/Gengar-500.png" alt="Imagem flexível">
-    </picture>
-    <h1>Reproduzindo Áudio</h1>
-    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
-    <audio preload="metadata" autoplay controls loop>
-        <source src="midia-ex011/Lobe - The Mini Vandals.mp3" type="audio/mpeg">
-        <source src="midia-ex011/Lobe - The Mini Vandals.mp3" type="audio/ogg">
-        <source src="midia-ex011/Lobe - The Mini Vandals.mp3" type="audio/wav">
-        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia-ex011/Lobe - The Mini Vandals.mp3">Clique aqui para baixar o arquivo MP3</a></p>
-    </audio>
-
+    <main>
+        <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="./imagens-ex011/gastly.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="./imagens-ex011/haunter.png" type="image/png">
+            <img src="imagens-ex011/Gengar-500.png" alt="Imagem flexível">
+        </picture>
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midia-ex011/Lobe - The Mini Vandals.mp3" type="audio/mpeg">
+            <source src="midia-ex011/Lobe - The Mini Vandals.mp3" type="audio/ogg">
+            <source src="midia-ex011/Lobe - The Mini Vandals.mp3" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia-ex011/Lobe - The Mini Vandals.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+        </audio>
+    </main>
+    <aside>
+        <a href="index.html">Voltar para o Menu incial</a>
+    </aside>
 </body>
 </html>
